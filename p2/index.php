@@ -23,7 +23,7 @@
             echo generate_password($words,$numbers,$separator);
             ?></p>
             <div class=" lead btn btn-default btn-lg btn-setting btnmargin" id="set">Options</div>
-            <p class="lead btnmargin"><a href="javascript:document.formgenerate.submit();" id="btngenerate" class="btn btn-lg btn-default">Generate</a></p>
+            <p class="lead btnmargin" id="button-container"><button type="submit" id="btngenerate" class="btn btn-lg btn-default">Generate</button></p>
 
           <fieldset>
             <legend>Options</legend>
